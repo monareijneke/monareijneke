@@ -1,0 +1,47 @@
+<!DOCTYPE HTML5>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>TODO</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer type="text/javascript" src="api-client.js"></script>
+    <script defer type="text/javascript" src="script.js"></script>
+  </head>
+
+  <body>
+    <h1>TODO lijst van</h1>
+
+    <main class="container">
+      <h4>What's up for today:</h4>
+      <div class="input">
+        <input type="text" width="100px" id="taskField" name="taskField" />
+        <input type="submit" id="addTask" value="add" />
+        <hr />
+      </div>
+
+      <div class="outcome">
+        <ul class="tasks">
+          <li class="listItem" id= "tasks._id">
+            <input type="checkbox" name="task._id">
+            <label>innerHTML</label>
+            <button type="reset"></button>
+          </li>
+
+
+
+        </ul>
+      </div>
+      <p>Check out or delete when you're done with it!<br>
+        Or just clear all:
+      <div class="end">
+        <button id="clear-all"></button>
+      </div>
+      
+      </p>
+    </main>
+    <div></div>
+  </body>
+</html>

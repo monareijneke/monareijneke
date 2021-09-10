@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #d3f7d3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  background-color: #c5f0c5;
+  height: 100%;
+  width: 400px;
+  -webkit-box-shadow: 1px 1px 3px 4px rgba(39, 67, 37, 0.3);
+  -moz-box-shadow: 1px 1px 3px 4px rgba(39, 67, 37, 0.3);
+  box-shadow: 1px 1px 3px 4px rgba(39, 67, 37, 0.3);
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.input {
+  padding-top: 5px;
+}
+
+.outcome {
+  display: flex;
+  align-self: left;
+}
+ul {
+  width: 100%;
+  padding: 0px;
+}
+
+label {
+  width: 250px;
+}
+button {
+  box-align: right;
+  border: none;
+  background-color: inherit;
+  padding: 12px;
+  align-content: stretch;
+  background-image: url("src/recycling-bin.png");
+  background-repeat: no-repeat;
+}
+
+button:hover {
+  border: 1px;
+}
+
+li.listitem {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  position: relative;
+  padding: 12px 8px 12px 10px;
+  list-style-type: none;
+  background-color: #c5f0c5;
+  font-size: 18px;
+  transition: 0.2s;
+}
+li.listitem:hover {
+  background-color: #bcdfbc;
+}
